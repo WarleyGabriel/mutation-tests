@@ -1,0 +1,21 @@
+{
+  "name": "mutation-tests",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "build": "npx tsc",
+    "build:watch": "npx tsc -w",
+    "test": "jest ./dist/test/*.js --collectCoverage true",
+    "test:watch": "jest ./dist/test/*.js --watch",
+    "mutation:test": "npx stryker run"
+  },
+  "dependencies": {
+    "@stryker-mutator/core": "^3.3.1",
+    "@stryker-mutator/jest-runner": "^3.3.1",
+    "@stryker-mutator/typescript": "^3.3.1",
+    "@types/jest": "^26.0.13",
+    "jest": "^26.4.2",
+    "stryker-cli": "^1.0.0",
+    "typescript": "^4.0.2"
+  }
+}
