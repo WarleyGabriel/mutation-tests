@@ -1,6 +1,8 @@
 # mutation-tests
 
+[![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
 [![Action Status](https://github.com/WarleyGabriel/mutation-tests/workflows/CI/badge.svg)](https://github.com/WarleyGabriel/mutation-tests/actions)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project is an example of mutation tests with Stryker.  
 We have a simple method that returns true or false, and we create a test for this method.
