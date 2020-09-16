@@ -15,7 +15,24 @@
     "@stryker-mutator/typescript": "^3.3.1",
     "@types/jest": "^26.0.13",
     "jest": "^26.4.2",
+    "jest-stare": "^2.2.0",
     "stryker-cli": "^1.0.0",
     "typescript": "^4.0.2"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "jest-stare",
+        {
+          "resultDir": "reports/jest",
+          "reportTitle": "Jest Report",
+          "additionalResultsProcessors": [
+            "jest-junit"
+          ],
+          "coverageLink": "../../coverage/lcov-report/index.html"
+        }
+      ]
+    ]
   }
 }
