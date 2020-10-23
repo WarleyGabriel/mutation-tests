@@ -10,10 +10,14 @@
     "mutation:test": "npx stryker run"
   },
   "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
     "@stryker-mutator/core": "^3.3.1",
     "@stryker-mutator/jest-runner": "^3.3.1",
     "@stryker-mutator/typescript": "^3.3.1",
     "@types/jest": "^26.0.13",
+    "babel-jest": "^26.6.1",
     "jest": "^26.4.2",
     "jest-stare": "^2.2.0",
     "stryker-cli": "^1.0.0",
